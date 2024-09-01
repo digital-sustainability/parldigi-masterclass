@@ -13,7 +13,7 @@ Requesting data from https://www.smartvote.ch/ and using it to train a neural ne
 
 ## Getting Started
 
-Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) ist optional zum trainieren des NN.
+Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) muss zum Trainieren des NN nicht zwingend ausgeführt werden.
 
 ## Contributors
 
