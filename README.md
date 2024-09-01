@@ -11,7 +11,7 @@ Requesting data from https://www.smartvote.ch/ and using it to train a neural ne
 4. pipenv installieren mit `pip install pipenv`.
 5. Libraries installieren mit `pipenv install`.
 
-# Getting Started
+## Getting Started
 
 Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) ist optional zum trainieren des NN.
 
