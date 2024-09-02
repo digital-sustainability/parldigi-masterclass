@@ -31,7 +31,7 @@ Für die optimale Erfahrung empfehle ich [Visual Studio Code](https://code.visua
 1. [Git](https://git-scm.com/download) installieren.
 2. Repository klonen mit `git clone https://github.com/lionelsemion/party-prediction.git && cd party-prediction`.
 3. [Python](https://www.python.org/downloads/) installieren.
-4. pipenv installieren mit `pip install pipenv`.
+4. pipenv installieren. Auf Linux mit `sudo apt install pipenv`, auf Windoof nach [dieser Anleitung](https://www.pythontutorial.net/python-basics/install-pipenv-windows/)
 5. Libraries installieren mit `pipenv install`.
 
 ## Getting Started
