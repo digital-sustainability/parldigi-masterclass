@@ -18,4 +18,4 @@ Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analy
 
 ## Contributors
 
-Ich
+Ich habe das Projekt in etwa 2 Tagen alleine entwickelt und dokumentiert
