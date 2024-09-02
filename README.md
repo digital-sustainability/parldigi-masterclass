@@ -29,14 +29,14 @@ Hier werden die Daten an das neuronale Netzwerk gefüttert und anschliessend wir
 Für die optimale Erfahrung empfehle ich [Visual Studio Code](https://code.visualstudio.com/) zu verwenden. Zum Lesen, Bearbeiten und Ausführen der Notebooks gibt es die Jupyter-Erweiterung, die (innerhalb von VSCode) mit `ext install ms-toolsai.jupyter` installiert werden kann.
 
 1. [Git](https://git-scm.com/download) installieren.
-2. Repository klonen mit `git clone https://github.com/lionelsemion/party-prediction.git && cd party-prediction`.
-3. [Python](https://www.python.org/downloads/) installieren.
+2. [Python](https://www.python.org/downloads/) installieren.
+3. Repository klonen mit `git clone https://github.com/lionelsemion/party-prediction.git && cd party-prediction`.
 4. pipenv installieren. Auf Linux mit `sudo apt install pipenv`, auf Windoof nach [dieser Anleitung](https://www.pythontutorial.net/python-basics/install-pipenv-windows/)
 5. Libraries installieren mit `pipenv install`.
 
 ## Getting Started
 
-Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) muss zum Trainieren des NN nicht zwingend ausgeführt werden.
+Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) muss zum Trainieren des NN nicht zwingend ausgeführt werden. Wenn Visual Studio Code verwendet wird, muss je nachdem zum Ausführen noch ein Kernel ausgewählt werden. Rechts oben hat es dazu einen Knopf. Dort können auch gleich einige Erweiterungen installiert werden, die hilfreich für die Arbeit mit Jupyter sind.
 
 ## Contributors
 
