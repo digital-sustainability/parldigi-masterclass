@@ -2,6 +2,8 @@
 
 Requesting data from https://www.smartvote.ch/ and using it to train a neural network to guess which political party someone is from. Documentation is in German.
 
+![Confusion Matrix](https://github.com/lionelsemion/party-prediction/blob/main/confusion_matrix.png?raw=true)
+
 ---
 
 ## 0. Einführung
