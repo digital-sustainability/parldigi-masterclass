@@ -26,17 +26,17 @@ Hier werden die Daten an das neuronale Netzwerk gefüttert und anschliessend wir
 
 ## Installation
 
-Für die optimale Erfahrung empfehle ich [Visual Studio Code](https://code.visualstudio.com/) zu verwenden. Zum Lesen, Bearbeiten und Ausführen der Notebooks gibt es die Jupyter-Erweiterung, die (innerhalb von VSCode) mit `ext install ms-toolsai.jupyter` installiert werden kann.
+Für die optimale Erfahrung empfehle ich [Visual Studio Code](https://code.visualstudio.com/) zu verwenden. Unter "Terminal" am oberen Bildschirmrand kann auch gleich ein neues Terminal geöffnet werden.
 
 1. [Git](https://git-scm.com/download) installieren.
-2. [Python](https://www.python.org/downloads/) installieren.
-3. Repository klonen mit `git clone https://github.com/lionelsemion/party-prediction.git && cd party-prediction`.
+2. Repository klonen mit `git clone https://github.com/lionelsemion/party-prediction.git && cd party-prediction`.
+3. [Python](https://www.python.org/downloads/) installieren.
 4. pipenv installieren. Auf Linux mit `sudo apt install pipenv`, auf Windoof nach [dieser Anleitung](https://www.pythontutorial.net/python-basics/install-pipenv-windows/)
 5. Libraries installieren mit `pipenv install`.
 
 ## Getting Started
 
-Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) muss zum Trainieren des NN nicht zwingend ausgeführt werden. Wenn Visual Studio Code verwendet wird, muss je nachdem zum Ausführen noch ein Kernel ausgewählt werden. Rechts oben hat es dazu einen Knopf. Es sollte der Kernel "party-prediction-..." gewählt werden. Dort können auch gleich einige Erweiterungen installiert werden, die hilfreich für die Arbeit mit Jupyter sind.
+Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) muss zum Trainieren des NN nicht zwingend ausgeführt werden. Wenn Visual Studio Code verwendet wird, muss je nachdem zum Ausführen noch ein Kernel ausgewählt werden. Rechts oben hat es dazu einen Knopf. Es sollte der Kernel "party-prediction-..." gewählt werden. Wenn dieser nicht angezeigt wird, muss Visual Studio Code neu gestartet werden. Dort können auch gleich einige Erweiterungen installiert werden, die hilfreich für die Arbeit mit Jupyter sind.
 
 ## Contributors
 
