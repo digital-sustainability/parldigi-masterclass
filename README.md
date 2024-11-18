@@ -1,14 +1,23 @@
-# Party Prediction
+# Parldigi Masterclass
 
-Requesting data from https://www.smartvote.ch/ and using it to train a neural network to guess which political party someone is from. Documentation is in German.
+Diese Parldigi Masterclass dient der Einführung in das Thema von Algorithmen, Daten, und Software in der Politik.
+Zu Beispielszwecken werden wir mithilfe von Daten Arbeiten die von [Smartvote](https://www.smartvote.ch) bezogen werden können.
 
-![Confusion Matrix](confusion_matrix.png)
+
+# Vorbereitung
+Alle Codes sind in der Programmiersprache [Python](https://www.python.org/) geschrieben.
+Um die Codes auszführen verwenden wir eine webbrowserbasierte Umgebung welche Python Codes ausführen kann.
+Diese Umgebung nennt sich [JupyterLite](https://jupyter.org/try-jupyter/lab/).
+
+## JupyterLite aufsetzen
+Schritt für Schritt Anleitung
 
 ---
 
 ## 0. Einführung
 
-In diesem Projekt geht es darum, ein neuronales Netzwerk so zu trainieren, dass es anhand der Antworten, die Kandidierende fürs Parlament auf [Smartvote](https://www.smartvote.ch) eingegeben haben, deren jeweilige Partei zu erraten. Dazu sind 4 Schritte notwendig:
+In diesem Projekt geht es darum, Daten von Smartvote einzusammeln und basierend darauf spannende Erkentnisse zu sammeln. Dazu sind vier Schritte notwendig
+
 
 ### 1. Daten sammeln
 
@@ -22,11 +31,8 @@ Im nächsten Schritt schauen wir uns die Daten etwas genauer an und erfassen ein
 
 Zum Trainieren des neuronalen Netzwerks werden hier die Daten bereinigt. Dazu werden Erkenntnisse aus der vorhergehenden Analyse gebraucht.
 
-### 4. Das neuronale Netzwerk trainieren und testen
 
-Hier werden die Daten an das neuronale Netzwerk gefüttert und anschliessend wird gemessen, wie gut das Modell die Kandidierenden einteilen kann. Als Abschluss folgt dann noch eine kurze Interpretation der Fehlermatrix der Testdaten.
-
-## Installation
+## Vorbereitung
 
 Für die optimale Erfahrung empfehle ich [Visual Studio Code](https://code.visualstudio.com/) zu verwenden. Unter "Terminal" am oberen Bildschirmrand kann auch gleich ein neues Terminal geöffnet werden.
 
@@ -36,10 +42,9 @@ Für die optimale Erfahrung empfehle ich [Visual Studio Code](https://code.visua
 4. pipenv installieren. Auf Linux mit `sudo apt install pipenv`, auf Windoof nach [dieser Anleitung](https://www.pythontutorial.net/python-basics/install-pipenv-windows/)
 5. Libraries installieren mit `pipenv install`.
 
-## Getting Started
-
-Die Notebooks können der Reihe nach ausgeführt werden. Das zweite (Daten Analysieren) muss zum Trainieren des NN nicht zwingend ausgeführt werden. Wenn Visual Studio Code verwendet wird, muss je nachdem zum Ausführen noch ein Kernel ausgewählt werden. Rechts oben hat es dazu einen Knopf. Es sollte der Kernel "party-prediction-..." gewählt werden. Wenn dieser nicht angezeigt wird, muss Visual Studio Code neu gestartet werden. Dort können auch gleich einige Erweiterungen installiert werden, die hilfreich für die Arbeit mit Jupyter sind.
 
 ## Contributors
+Die Codes wurde von folgenden Personen entwickelt und konzipiert:
 
-Ich (Lionel Stürmer) habe das Projekt alleine entwickelt und dokumentiert
+- [Lionel Stürmer](https://github.com/lionelsemion/) Initiale Erstellung der Codes
+- [Prof. Dr. Marcel Gygli](https://www.bfh.ch/de/ueber-die-bfh/personen/ywvhtmvrnkn3/) Adaption der Codes und simplifizierung für den Use Case
