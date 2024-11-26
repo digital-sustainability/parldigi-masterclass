@@ -20,8 +20,7 @@ In diesem Projekt geht es darum, Daten von Smartvote einzusammeln und basierend 
 
 
 ### 1. Daten sammeln
-
-Als erstes werden die Daten von Smartvote geholt und als JSON-Datei gespeichert.
+In einem ersten Schritt werden die Daten von Smartvote mithilfe der angebotenen Schnittstelle angefragt und gespeichert.
 
 ### 2. Die gesammelten Daten analysieren
 
